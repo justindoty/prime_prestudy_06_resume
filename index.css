@@ -1,0 +1,285 @@
+/*main.css */
+
+html, body,header,footer, h1, h2, h3, h4, p, div, figure{
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font: inherit;
+	font-size: 100%;
+	font-family: "helvetica Neue", helvetica, sans-serif;
+	background-color: #FEFEFE;
+}
+
+
+#buttonSection {
+	border-bottom: none;
+	
+}
+
+button	{
+	height: 400px;
+	width: 400px;
+	font-size: 3em;
+	position: absolute;
+	top: 200px;
+	left: 300px;
+	background-color: grey;	
+	font-weight: bold;
+	color: blue;
+	border-radius: 50%;
+	background: radial-gradient( #817E85, #007196);
+	box-shadow: -6px 8px 8px #888888;
+	border: 2px solid #454545;
+	color: #12181A;
+	text-shadow: -1px 2px gray;
+
+}
+button:hover {
+	box-shadow: -7px 9px 8px #888888;
+
+
+}
+
+.hidden {
+	display: none;
+
+}
+
+body {
+
+	height: auto;
+	width: 62.5em;
+	margin: auto;
+}
+h3 {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+section {
+	border-bottom: 2px #007196 solid;
+}
+ul {
+	font-size: 1.1em;
+}
+li {
+	margin-top: 4px;
+}
+/*Header*/
+header {
+	margin: auto;
+	margin-top: 90px;
+	margin-bottom: 15px;
+    width: 62.5em;
+    height: 90px;
+   	background: linear-gradient(0deg, #817E85, #007196);
+    background-color: #007196;
+    padding: 10px;
+    box-shadow: -4px 4px 5px #888888;
+    border-radius: 1em 1em 1em 1em;
+    border: .1em solid #454545;
+}
+.meimg {
+	height: 15em;
+	width: 15em;
+	border: 1px solid #798082;
+	box-shadow: -3px 2px 5px #1E2021, 3px 4px 5px 0px #353738;
+	float: left;
+	position: relative;
+	border-radius: 7em 3em 7em 3em;
+	z-index: 1;
+	margin: 0 10px 0 10px; 
+	top: -20px;
+}
+.name {
+	padding-top: 20px;
+	height: 80px;
+	margin: 0px 0 0 180px;
+	float: left;
+	font-size: 3.5em;
+	color: #12181A;
+	font-weight: bold;
+	background: linear-gradient(0deg, #817E85, #007196);
+	background-color: #007196;
+	text-shadow: -1px 1px #00516B;
+}
+.experiance-heading {
+	margin: 35px 0 5px 0;
+	font-size: 2em;
+	color: #12181A;
+}
+.statement {
+	float: right;
+    width: 600px;
+    height: 80px;
+    padding: 5px;
+    font-size: 1.4em;
+}
+/*Cemstone*/
+.cemstonelogo {
+	float: left;
+	margin: 10px 0 0 0;
+	height: 40px;
+	box-shadow: -1px 1px 1px #888888;
+    border-radius: .5em .5em .5em .5em;
+    border: 1px solid #454545;
+}
+.cemstonename {
+	margin: 10px 0 5px 0;
+	position: relative;
+	font-size: 1em;
+}
+.cemstonetitle {
+	font-size: 1.2em;
+	font-weight: bold;
+	position: relative;
+	}
+.cemstonedates {
+	float: right;
+	position: relative;
+	font-size: 1.2em;
+	margin-top: 10px;
+}
+.noteworthy-projects {
+	margin: 5px 0px 12px 10px;
+}
+.projects {
+	margin-right: 4px;
+	height: 10.5em;
+	width: 15em;
+	float: left;
+	box-shadow: -2px 2px 3px #888888;
+    border-radius: .7em .7em .7em .7em;
+    border: .1em solid #454545;
+}
+/*AVR*/
+.avrlogo {
+	margin-top: 10px;
+	position: relative;
+	float: left;
+	height: 70px;
+	width: auto;
+}
+.avrname {
+	position: relative;
+	font-size: 1em;
+	padding: 10px 0 5px 0;
+}
+.avrtitle {
+	font-size: 1.2em;
+	font-weight: bold;
+	position: relative;
+}
+.avrdates {
+	float: right;
+	font-size: 1.2em;
+	margin-top: 10px;
+	position: relative;
+}
+/*Education*/ 
+.education-section {
+	float: left;
+	width: 500px;
+	height: 270px;
+	border-bottom: none;
+	margin-bottom: 30px;
+}
+.education {
+	margin: 20px 0 5px 0;
+	font-size: 2em;
+	float: left;
+}
+.education-section h3 {
+	margin: 10px 0 5px 0;
+}
+/*Technical Skills*/
+.tech-section {
+	margin-bottom: 30px;
+	float: left;
+	border-left:2px #007196 solid;
+	width: 480px;
+	height: 270px;
+	border-bottom: none;
+}
+.technical-skills {
+	margin: 20px 0 5px 370px;
+	font-size: 2em;
+	float:left;
+}
+.tech-section li {
+	line-height: 30px;
+}
+/*Footer*/
+footer {
+	background: linear-gradient(0deg, #817E85, #007196);
+	position: relative;
+	margin: auto;
+    width: 62.5em;
+    height: 60px;
+    padding: 10px;
+    background-color: #007196;
+    box-shadow: -4px 4px 5px #888888;
+    border-radius: 1em 1em 1em 1em;
+    border: .1em solid #454545;
+    margin: 15px 0 60px 0;
+   
+}
+
+
+.contact {
+	float: left;
+	position: relative;
+	background: linear-gradient(0deg, #817E85, #007196);
+	border-radius: 1em 1em 1em 1em;
+    transition: all 0.4s;
+   	font-size: 1.1em;
+	background-color: #007196;
+	color: #12181A;
+}
+
+
+
+
+.contact:hover {
+	position: relative;
+	border: .1em solid #454545;
+	box-shadow: -4px 4px 5px black;
+	padding: 10px;
+	color: black;
+	font-size: 1.8em;
+	transition: all 0.3s ease;	
+
+
+}
+/*Clear*/
+.clear {
+	clear:both;
+}
+
+
+\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
